@@ -1,4 +1,4 @@
-# shallowML_unsupervised
+# shallowML_regression
 Assessing different models and approaches for predicting SST
 
 These notebooks will take you through the various (non exhaustive) options available for predicting Sea Surface Temperature (SST) using co-variables including Sea Surface Height (SSH), Salinity (SSS), Currents (Vu and Vu), and Ocean Mixed Layer Thickness (MLD). We will also begin to integrate 'time' into our training to assess if this helps the model learn, as well as categorical variables 'season' and ENSO state 'MEI'.
