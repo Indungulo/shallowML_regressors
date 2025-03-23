@@ -28,11 +28,7 @@ The focus is on introducing **interpretable**, **non-deep** methods suitable for
 - XGBoost Regression
 - CatBoost Regression
 
-All models are trained to predict **SST** (Sea Surface Temperature) from co-variables: 
-**SSH, 
-SSS, 
-Vuo, Vvo, 
-MLD**  
+All models are trained to predict **SST** using **SSH, SSS, Vuo, Vvo, and MLD** as predictors (features/ co-variables). 
 
 Optional categorical features include **season** and **ENSO state** (MEI.v2).
 
@@ -56,7 +52,7 @@ Optional categorical features include **season** and **ENSO state** (MEI.v2).
 Most models include SHAP (SHapley Additive exPlanations) to support interpretability, particularly for tree-based and kernel models.
 
 ⚠️ **Note on SVR**  
-SHAP + SVR is **computationally expensive**. Running SHAP on the full dataset can take literally hours. To avoid this runtime issue, the SVR notebook here uses a (very) small subset of data for demo purposes.
+SHAP + SVR is **computationally expensive**. Running SHAP on the full dataset can take literally hours, and even modest background sample sizes need long runtimes. For demonstration purposes, the SVR notebook here uses a very small subset (10 samples) to allow the notebook to run in a reasonable time. This limits SHAP accuracy, but still illustrates the method’s logic and application.
 
 ---
 
@@ -70,9 +66,11 @@ SHAP + SVR is **computationally expensive**. Running SHAP on the full dataset ca
    ```bash
    pip install numpy pandas scikit-learn xgboost catboost shap matplotlib seaborn
    ```
-4. Open the .ipynb notebooks in your preferred environment. In my classes, we use Jupyter Notebook.
+3. Open the .ipynb notebooks in your preferred environment. In my classes, we use Jupyter Notebook.
 
-6. Run each notebook top to bottom. Notebooks are independent but use the same CMEMS CSV data.
+4. Run each notebook top to bottom. Notebooks are independent but use the same CMEMS CSV data.
+
+
 
 ## License & Credits
 
