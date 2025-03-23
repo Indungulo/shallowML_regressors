@@ -65,11 +65,11 @@ SHAP + SVR is **computationally expensive**. Running SHAP on the full dataset ca
 1. Clone the repository:
    ```bash
    git clone https://github.com/Indungulo/shallowML_regressors.git
-
+   ```
 2. Install the required packages (I prefer pip because it works on the uni computers ^^)
    ```bash
    pip install numpy pandas scikit-learn xgboost catboost shap matplotlib seaborn
-
+   ```
 4. Open the .ipynb notebooks in your preferred environment. In my classes, we use Jupyter Notebook.
 
 6. Run each notebook top to bottom. Notebooks are independent but use the same CMEMS CSV data.
