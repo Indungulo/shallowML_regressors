@@ -74,7 +74,7 @@ SHAP + SVR is **computationally expensive**. Running SHAP on the full dataset ca
 
 ## License & Credits
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
 Ocean data: © Copernicus Marine Service
 
