@@ -74,8 +74,7 @@ SHAP + SVR is **computationally expensive**. Running SHAP on the full dataset ca
 
 ## License & Credits
 
-All code here is released for teaching and academic use.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 Ocean data: © Copernicus Marine Service
-
 MEI.v2 data: NOAA PSL https://psl.noaa.gov/enso/mei/
